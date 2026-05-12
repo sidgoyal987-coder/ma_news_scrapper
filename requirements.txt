@@ -1,5 +1,5 @@
-os
 feedparser
-datetime import datetime, timedelta, timezone
-dateutil import parser
-notion_client import Client
+python-dateutil
+notion-client
+requests
+beautifulsoup4
