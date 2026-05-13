@@ -17,7 +17,8 @@ notion = Client(auth=NOTION_TOKEN)
 # FETCH CONTROL SETTINGS
 # =========================
 def get_control_settings():
-    response = notion.databases.query(database_id=CONTROL_DB_ID)
+    response = notion.databases.query(
+        **{"database_id": CONTROL_DB_ID})
 
     page = response["results"][0]
     props = page["properties"]
