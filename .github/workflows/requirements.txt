@@ -1,5 +1,0 @@
-feedparser
-python-dateutil
-notion-client
-requests
-beautifulsoup4
