@@ -1,5 +1,5 @@
 feedparser
 python-dateutil
-notion-client
+notion-client==2.2.1
 requests
 beautifulsoup4
